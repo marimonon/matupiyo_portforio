@@ -809,9 +809,9 @@ ul {
   padding-top: 40px;
   padding-bottom: 40px;
 }
-.works:hover {
+/* .works:hover {
   cursor: url("../img/cursor.svg"), pointer;
-}
+} */
 @media screen and (min-width: 768px), print {
   .works {
     padding-top: 90px;
