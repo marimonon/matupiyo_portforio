@@ -599,10 +599,11 @@ ul {
 .other__title {
   text-align: center;
   font-size: 16px;
+  background: linear-gradient(90deg, #fff 0%, #E6FCFF 50%, #fff 100%);;
 }
 .other__banners {
-  padding: 20px;
-  background-color: #E6FCFF;
+  padding: 20px 0;
+  background-color: #FFF;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -611,7 +612,7 @@ ul {
 }
 @media screen and (min-width: 768px), print {
   .other__banners {
-    background-color: #E6FCFF;
+    background-color: #FFF;
     flex-direction: row;
     justify-content: space-between;
   }
@@ -623,6 +624,20 @@ ul {
   .other__banaimg {
     height: 100px;
   }
+}
+.other__games {
+  padding: 40px 0;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+.other__game {
+  width: 100%;
+  text-align: center;
+}
+.other__gameimg {
+  max-width: 240px;
+  width: 100%;
 }
 
 .profile {
@@ -873,8 +888,8 @@ ul {
 .works__image.-twiseki {
   background-image: url("../img/twiseki_pc.jpg");
 }
-.works__image.-maruni {
-  background-image: url("../img/maruni_pc.jpg");
+.works__image.-moto {
+  background-image: url("../img/moto_pc.jpg");
 }
 .works__image.-dives {
   background-image: url("../img/dives_pc.jpg");
