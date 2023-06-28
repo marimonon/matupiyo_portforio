@@ -628,12 +628,23 @@ ul {
 .other__games {
   padding: 40px 0;
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
+  justify-content: center;
   gap: 20px;
+}
+@media screen and (min-width: 768px), print {
+  .other__games {
+    flex-direction: row;
+    justify-content: space-between;
+  }
 }
 .other__game {
   width: 100%;
   text-align: center;
+}
+.other__game p {
+  font-size: 12px;
+  margin-top: 10px;
 }
 .other__gameimg {
   max-width: 240px;
