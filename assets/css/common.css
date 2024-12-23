@@ -599,11 +599,10 @@ ul {
 .other__title {
   text-align: center;
   font-size: 16px;
-  background: linear-gradient(90deg, #fff 0%, #E6FCFF 50%, #fff 100%);;
 }
 .other__banners {
-  padding: 20px 0;
-  background-color: #FFF;
+  padding: 20px;
+  background-color: #E6FCFF;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -612,7 +611,7 @@ ul {
 }
 @media screen and (min-width: 768px), print {
   .other__banners {
-    background-color: #FFF;
+    background-color: #E6FCFF;
     flex-direction: row;
     justify-content: space-between;
   }
@@ -624,31 +623,6 @@ ul {
   .other__banaimg {
     height: 100px;
   }
-}
-.other__games {
-  padding: 40px 0;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  gap: 20px;
-}
-@media screen and (min-width: 768px), print {
-  .other__games {
-    flex-direction: row;
-    justify-content: space-between;
-  }
-}
-.other__game {
-  width: 100%;
-  text-align: center;
-}
-.other__game p {
-  font-size: 12px;
-  margin-top: 10px;
-}
-.other__gameimg {
-  max-width: 240px;
-  width: 100%;
 }
 
 .profile {
@@ -835,9 +809,6 @@ ul {
   padding-top: 40px;
   padding-bottom: 40px;
 }
-/* .works:hover {
-  cursor: url("../img/cursor.svg"), pointer;
-} */
 @media screen and (min-width: 768px), print {
   .works {
     padding-top: 90px;
@@ -899,8 +870,8 @@ ul {
 .works__image.-twiseki {
   background-image: url("../img/twiseki_pc.jpg");
 }
-.works__image.-moto {
-  background-image: url("../img/moto_pc.jpg");
+.works__image.-maruni {
+  background-image: url("../img/maruni_pc.jpg");
 }
 .works__image.-dives {
   background-image: url("../img/dives_pc.jpg");
