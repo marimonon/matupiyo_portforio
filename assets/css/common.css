@@ -935,8 +935,8 @@ ul {
 }
 .works__tag {
   margin-top: 4px;
-  color: #fff;
-  background-color: #6edde4;
+  color: #018496;
+  border: 1px solid #018496;
   padding-left: 12px;
   padding-right: 12px;
   margin-right: 10px;
