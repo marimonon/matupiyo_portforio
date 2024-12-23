@@ -857,6 +857,9 @@ ul {
   background-position: center;
   opacity: 0.7;
 }
+.works__image.-moto {
+  background-image: url("../img/moto_pc.png");
+}
 .works__image.-newtral {
   background-image: url("../img/newtral_pc.jpg");
 }
@@ -898,8 +901,6 @@ ul {
   margin-top: 4px;
   color: #fff;
   background-color: #6edde4;
-  border: 1px solid #fff;
-  border-radius: 20px;
   padding-left: 12px;
   padding-right: 12px;
   margin-right: 10px;
