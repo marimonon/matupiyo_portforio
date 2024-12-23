@@ -583,7 +583,7 @@ ul {
 }
 
 .other {
-  background-color: #fff;
+  background-color: #E6FCFF;
   padding-top: 40px;
   padding-bottom: 40px;
 }
@@ -602,7 +602,6 @@ ul {
 }
 .other__banners {
   padding: 20px;
-  background-color: #E6FCFF;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -611,7 +610,6 @@ ul {
 }
 @media screen and (min-width: 768px), print {
   .other__banners {
-    background-color: #E6FCFF;
     flex-direction: row;
     justify-content: space-between;
   }
@@ -622,6 +620,7 @@ ul {
 @media screen and (min-width: 768px), print {
   .other__banaimg {
     height: 100px;
+    border: 1px solid #E6FCFF;
   }
 }
 
