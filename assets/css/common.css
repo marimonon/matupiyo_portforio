@@ -376,6 +376,14 @@ ul {
   }
 }
 
+.fade {
+  display: none;
+}
+
+.fadein {
+  display: block;
+}
+
 .fish {
   position: absolute;
   width: 100%;
@@ -895,6 +903,9 @@ ul {
 }
 .works__image.-taiei {
   background-image: url("../img/taiei_pc.jpg");
+}
+.works__image.-obilabo {
+  background-image: url("../img/obilabo_pc.jpg");
 }
 .works__image.-newtral {
   background-image: url("../img/newtral_pc.jpg");
