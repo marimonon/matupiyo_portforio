@@ -860,6 +860,9 @@ ul {
 .works__image.-moto {
   background-image: url("../img/moto_pc.png");
 }
+.works__image.-taiei {
+  background-image: url("../img/taiei_pc.jpg");
+}
 .works__image.-newtral {
   background-image: url("../img/newtral_pc.jpg");
 }
