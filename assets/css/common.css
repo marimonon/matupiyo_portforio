@@ -966,6 +966,7 @@ ul {
   transform: scale(1.2, 1.2);
   background-position: center;
   opacity: 0.7;
+  cursor: url("../img/cursor_white.svg"), pointer;
 }
 .works__image.-moto {
   background-image: url("../img/moto_pc.png");
@@ -1029,7 +1030,6 @@ ul {
 }
 .works__title {
   margin-top: 4px;
-  font-weight: bold;
   font-size: 14px;
 }
 @media screen and (min-width: 768px), print {
