@@ -324,6 +324,7 @@ ul {
 .design {
   margin-top: 40px;
   padding-bottom: 80px;
+  cursor: url("../img/cursor_blue.svg"), pointer;
 }
 .design__inner {
   border: 1px solid #018496;
