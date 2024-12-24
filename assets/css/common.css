@@ -62,6 +62,22 @@ ul {
   font-weight: normal !important;
 }
 
+.u-blue2 {
+  color: #018496 !important;
+}
+
+.u-white {
+  color: #fff !important;
+}
+
+.u-blue4 {
+  color: #6edde4 !important;
+}
+
+.u-blue6 {
+  color: #E6FCFF !important;
+}
+
 .u-block {
   display: block !important;
 }
@@ -305,6 +321,47 @@ ul {
           user-select: none;
 }
 
+.design {
+  margin-top: 40px;
+  padding-bottom: 80px;
+}
+.design__inner {
+  border: 1px solid #018496;
+  padding: 20px;
+}
+.design__inner.-prog {
+  background-color: #018496;
+}
+.design__title {
+  font-size: 24px;
+}
+.design__title.-prog {
+  color: #fff;
+}
+.design__list {
+  margin-top: 20px;
+}
+.design__list include sm_up {
+  margin-top: 40px;
+  padding-left: 120px;
+}
+.design__item {
+  color: #bbb;
+}
+.design__item.-prog {
+  color: #b3f0f7;
+}
+.design__skill {
+  color: #333;
+  margin-top: 12px;
+}
+.design__skill.-prog {
+  color: #fff;
+}
+.design__text {
+  padding-left: 20px;
+}
+
 .drawer {
   position: fixed;
   z-index: 1500;
@@ -378,7 +435,7 @@ ul {
 
 .fadein {
   opacity: 0;
-  transition: opacity 1.5s;
+  transition: opacity 1.8s;
 }
 .fadein.is-active {
   opacity: 1;
@@ -684,13 +741,11 @@ ul {
 .profile {
   background-color: #fff;
   padding-top: 40px;
-  padding-bottom: 40px;
   cursor: url("../img/cursor_blue.svg"), pointer;
 }
 @media screen and (min-width: 768px), print {
   .profile {
     padding-top: 90px;
-    padding-bottom: 90px;
   }
 }
 .profile__inner {
